@@ -308,6 +308,24 @@ const CaseDetailsCard = ({ ID }) => {
       drizzle.contracts.KlerosLiquid.address,
       ID
     )
+    console.log(metaEvidence)
+
+    if (metaEvidence) {
+      metaEvidence.metaEvidenceJSON.evidenceDisplayInterfaceURI = ''
+      metaEvidence.metaEvidenceJSON.evidenceDisplayInterfaceHash = ''
+      metaEvidence.metaEvidenceJSON.category = 'Fake News'
+      metaEvidence.metaEvidenceJSON.title = 'Truthful or Fake?'
+      metaEvidence.metaEvidenceJSON.question = 'Is this piece of news truthful?'
+      metaEvidence.metaEvidenceJSON.rulingOptions = {
+        descriptions: ['a', 'b'],
+        titles: ['Truthful', 'Fake'],
+        type: 'single-select'
+      }
+      metaEvidence.metaEvidenceJSON.fileURI =
+        'https://ipfs.globalupload.io/QmX3eYvWysBpfAzfZqU2PgFyqvvCvpYTyoLdHjpePRTHhK'
+      metaEvidence.metaEvidenceJSON.description =
+        "The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways!"
+    }
     evidence = getEvidence(
       dispute.arbitrated,
       drizzle.contracts.KlerosLiquid.address,
