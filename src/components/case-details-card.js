@@ -322,7 +322,7 @@ const CaseDetailsCard = ({ ID }) => {
         type: 'single-select'
       }
       metaEvidence.metaEvidenceJSON.fileURI =
-        'https://ipfs.globalupload.io/QmX3eYvWysBpfAzfZqU2PgFyqvvCvpYTyoLdHjpePRTHhK'
+        'https://ipfs.globalupload.io/QmVVQo2NQY1yPzXMjggJYb1hxZDo7toq1ncdW5TBeG3Zqu'
       metaEvidence.metaEvidenceJSON.description =
         "The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways!"
     }
