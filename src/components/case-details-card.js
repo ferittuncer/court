@@ -323,8 +323,7 @@ const CaseDetailsCard = ({ ID }) => {
       }
       metaEvidence.metaEvidenceJSON.fileURI =
         'https://ipfs.globalupload.io/QmVVQo2NQY1yPzXMjggJYb1hxZDo7toq1ncdW5TBeG3Zqu'
-      metaEvidence.metaEvidenceJSON.description =
-        "The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways!"
+      metaEvidence.metaEvidenceJSON.description = `Refer to this when voting: https://ipfs.kleros.io/ipfs/QmRi4CiH9JopJVrPbxJM2gG7d9Npmnc7H42k1d3RQ5uk68 \n News: The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways!`
     }
     evidence = getEvidence(
       dispute.arbitrated,
