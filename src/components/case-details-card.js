@@ -324,7 +324,7 @@ const CaseDetailsCard = ({ ID }) => {
       metaEvidence.metaEvidenceJSON.fileURI =
         'https://ipfs.kleros.io/ipfs/QmRi4CiH9JopJVrPbxJM2gG7d9Npmnc7H42k1d3RQ5uk68'
       metaEvidence.metaEvidenceJSON.description = `### Is this piece of news truftful or fake?
-The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways! https://ipfs.globalupload.io/QmVVQo2NQY1yPzXMjggJYb1hxZDo7toq1ncdW5TBeG3Zqu`
+**[The government is restoring the deteriorated railway system. Here's a cargo train going from Cape Town to Dar es Salaam. Investment in our railways!](https://ipfs.globalupload.io/QmVVQo2NQY1yPzXMjggJYb1hxZDo7toq1ncdW5TBeG3Zqu)**`
     }
     evidence = getEvidence(
       dispute.arbitrated,
